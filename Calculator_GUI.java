@@ -13,6 +13,8 @@ public class Calculator_GUI {
         JLabel lblgrade = new JLabel("Grade:");
         JTextField txtgrade = new JTextField(30);
 
+        JButton BtnResult = new JButton("Show Result");
+
         frame.add(lblName);
         frame.add(txtname);
         frame.add(lblgrade);
