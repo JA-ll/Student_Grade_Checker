@@ -8,6 +8,15 @@ public class Calculator_GUI {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setLayout(new FlowLayout(FlowLayout.LEFT, 20, 10));
 
+         JLabel lblName = 
+            new JLabel("Enter your name:"); 
+ 
+        JTextField txtName = 
+            new JTextField(15); 
+
+            frame.add(lblName);
+            frame.add(txtName);
+
         frame.setVisible(true);
     }
 }    
