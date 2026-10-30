@@ -14,12 +14,14 @@ public class Calculator_GUI {
         JTextField txtgrade = new JTextField(30);
 
         JButton BtnResult = new JButton("Show Result");
+         JButton BtnClear = new JButton("Clear");
 
         frame.add(lblName);
         frame.add(txtname);
         frame.add(lblgrade);
         frame.add(txtgrade);
         frame.add(BtnResult);
+        frame.add(BtnClear);
 
         frame.setVisible(true);
     }
