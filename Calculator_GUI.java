@@ -14,7 +14,7 @@ public class Calculator_GUI {
         JTextField txtname = new JTextField(30);
         txtname.setBounds(100,50,100,30);
         JLabel lblgradee = new JLabel("Gradee:");
-        lblgradee.setBounds(0,0,0,0);
+        lblgradee.setBounds(50,100,100,30);
         JTextField txtgrade = new JTextField(30);
         txtgrade.setBounds(0,0,0,0);
 
