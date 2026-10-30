@@ -19,6 +19,7 @@ public class Calculator_GUI {
         frame.add(txtname);
         frame.add(lblgrade);
         frame.add(txtgrade);
+        frame.add(BtnResult);
 
         frame.setVisible(true);
     }
