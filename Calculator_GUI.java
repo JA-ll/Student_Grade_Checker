@@ -12,7 +12,7 @@ public class Calculator_GUI {
         JLabel lblNamee = new JLabel("Namee:");
         lblNamee.setBounds(50,50,100,30);
         JTextField txtname = new JTextField(30);
-        txtname.setBounds(0,0,0,0);
+        txtname.setBounds(100,50,100,30);
         JLabel lblgradee = new JLabel("Gradee:");
         lblgradee.setBounds(0,0,0,0);
         JTextField txtgrade = new JTextField(30);
