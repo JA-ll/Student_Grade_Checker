@@ -8,18 +8,20 @@ public class Calculator_GUI {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setLayout(new FlowLayout(FlowLayout.LEFT, 20, 10));
 
-        JLabel lblName = new JLabel("Name:");
+        JLabel lblNamee = new JLabel("Namee:");
         JTextField txtname = new JTextField(30);
-        JLabel lblgrade = new JLabel("Grade:");
+        JLabel lblgradee = new JLabel("Gradee:");
         JTextField txtgrade = new JTextField(30);
 
         JButton BtnResult = new JButton("Show Result");
+         JButton BtnClear = new JButton("Clear");
 
-        frame.add(lblName);
+        frame.add(lblNamee);
         frame.add(txtname);
-        frame.add(lblgrade);
+        frame.add(lblgradee);
         frame.add(txtgrade);
         frame.add(BtnResult);
+        frame.add(BtnClear);
 
         frame.setVisible(true);
     }
